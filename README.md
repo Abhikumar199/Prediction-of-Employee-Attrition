@@ -3,6 +3,7 @@ Machine Learning Techniques Project
 
 Author: Abhishek Kumar
 
+
 📌 Overview
 
 Employee attrition significantly impacts organizational productivity, hiring cost, and long-term stability.
@@ -15,6 +16,8 @@ The workflow includes:
 ✔ Model comparison
 ✔ Feature importance analysis
 
+
+
 📂 Dataset
 
 Dataset: IBM HR Analytics Employee Attrition Dataset
@@ -26,6 +29,8 @@ Columns: 35
 Key features: Age, Monthly Income, Job Role, Job Satisfaction, Overtime, Tenure
 
 Class Imbalance: Only ~16% employees have attrition → Requires metrics like Recall & Precision
+
+
 
 🔍 Exploratory Data Analysis (Key Insights)
 
@@ -40,6 +45,8 @@ Lower salary groups show higher attrition.
 PCA and heatmaps show strong non-linear patterns → tree-based models perform well.
 
 Dataset is highly imbalanced → Recall & Precision matter more than raw accuracy.
+
+
 
 ⚙️ Methodology
 1. Data Cleaning
@@ -74,11 +81,15 @@ Random Forest Classifier
 
 XGBoost Classifier
 
+
+
 📊 Model Performance
 Model	Accuracy	Recall	Precision	F1 Score
 Logistic Regression	~80%	~72%	~42%	~53%
 Random Forest	~80%	~54%	~41%	~47%
 XGBoost	~85%	~37%	~50%	~42%
+
+
 🔑 Interpretation
 
 XGBoost achieved the highest accuracy.
@@ -86,6 +97,9 @@ XGBoost achieved the highest accuracy.
 Logistic Regression achieved the best recall and precision → Most reliable for predicting employees likely to leave.
 
 Ensemble models (RF, XGBoost) captured non-linear patterns well but still didn’t match LR’s recall.
+
+
+
 
 ⭐ Most Important Features
 
@@ -103,6 +117,8 @@ Age
 
 EnvironmentSatisfaction
 
+
+
 🧾 Conclusion
 
 The project successfully predicted employee attrition using ML models.
@@ -114,6 +130,8 @@ workload balancing
 
 compensation adjustments
 
+
+
 🚧 Limitations
 
 Dataset is synthetic, not from a real organization
@@ -121,6 +139,9 @@ Dataset is synthetic, not from a real organization
 No psychological/external factors included
 
 Class imbalance impacts performance
+
+
+
 
 🚀 Future Enhancements
 
